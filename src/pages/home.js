@@ -9,7 +9,10 @@ const Home = function(props) {
 			<Nav />
 			<Title>Home</Title>
 			<div>
-				<p>Welcome! There is nothing to see here, enjoy!</p>
+				<p>
+					Welcome, there is nothing to see here! Head over to the 'Incrementor'
+					tab and try it out!
+				</p>
 			</div>
 			<Footer />
 		</div>

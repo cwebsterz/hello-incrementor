@@ -8,7 +8,11 @@ const About = props =>
 		<div>
 			<Nav />
 			<Title>About</Title>
-			<p>This is everything you need to know. Which is nothing for now.</p>
+			<p>
+				This application exists so that you can find out if a number is even or
+				odd!
+				Pretty worthless, huh? Enjoy!
+			</p>
 		</div>
 		<Footer />
 	</div>
