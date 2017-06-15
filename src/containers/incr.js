@@ -35,19 +35,20 @@ class Incr extends React.Component {
 				<h2 className="fw2">
 					Is the number odd? {this.state.isOdd === 1 ? 'Yep!' : 'Nope!'}
 				</h2>
-				<button
-					className="f6 dim br2 ph3 pv2 mb2 dib white bg-black"
-					type="button"
-					onClick={this.incrementCount}
-				>
-					{' '}+{' '}
-				</button>
+
 				<button
 					className="f6 dim br2 ph3 pv2 mb2 dib white bg-black"
 					type="button"
 					onClick={this.decrementCount}
 				>
 					{' '}-{' '}
+				</button>
+				<button
+					className="f6 dim br2 ph3 pv2 mb2 dib white bg-black"
+					type="button"
+					onClick={this.incrementCount}
+				>
+					{' '}+{' '}
 				</button>
 			</div>
 		)
