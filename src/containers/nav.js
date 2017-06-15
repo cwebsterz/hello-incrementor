@@ -3,12 +3,29 @@ import { Link } from 'react-router-dom'
 
 export default props => {
 	return (
-		<div className="avenir">
-			<Link to="/" className="pa1">Home</Link>
-			|
-			<Link to="/about" className="pa1">About</Link>
-			|
-			<Link to="/incrementor" className="pa1">Incrementor</Link>
+		<div>
+			<a
+				className="avenir link dim black b f1 fw4 f-headline tc db mb3 mb4-ns"
+				href="/"
+				title="Home"
+			>
+				The Incrementor
+			</a>
+			<div className="avenir flex-grow pa3 flex items-center bg-black">
+				<Link to="/" className="f6 link dib white dim mr3 mr4-ns">Home</Link>
+				|
+				<Link to="/about" className="f6 link dib white dim mr3 mr4-ns">
+					About
+				</Link>
+				|
+				<Link to="/incrementor" className="f6 link dib white dim mr3 mr4-ns">
+					Incrementor
+				</Link>
+				|
+				<Link to="/help" className="f6 link dib white dim mr3 mr4-ns">
+					Help
+				</Link>
+			</div>
 		</div>
 	)
 }

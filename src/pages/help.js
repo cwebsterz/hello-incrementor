@@ -3,13 +3,13 @@ import Nav from '../containers/nav'
 import Title from '../components/title'
 import Footer from '../containers/footer'
 
-const About = props =>
+const Help = props =>
 	<div className="pa3 avenir bg-black-50">
 		<div>
 			<Nav />
-			<Title>About</Title>
-			<p>This is everything you need to know. Which is nothing for now.</p>
+			<Title>Help</Title>
+			<p>There is no help for you.</p>
 		</div>
 		<Footer />
 	</div>
-export default About
+export default Help
